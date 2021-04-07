@@ -8,7 +8,7 @@ public class Main {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 JFrame.setDefaultLookAndFeelDecorated(true);
-                Comparison obj = new Comparison();
+                Comparison obj = new Comparison(50000);
                 obj.compareTime();
             }
         });
